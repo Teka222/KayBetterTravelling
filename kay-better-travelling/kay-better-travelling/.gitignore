@@ -1,24 +1,24 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Ignore system files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Ignore node_modules
+node_modules/
+
+# Ignore OS files
+*.log
+*.swp
+
+# Ignore IDE-specific files
+.vscode/
+
+# Ignore personal files
+*.bak
+*.tmp
+
+# Ignore build files
+/dist
+/build
+
+# Ignore other directories you don't need to track
+*.idea
